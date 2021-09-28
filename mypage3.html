@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <title>Advance HTML&CSS</title>
+        <link rel="stylesheet" href="css/screen2.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="https://use.typekit.net/lhq6jty.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+        <script type="text/javascript" src="js/cycle2.js"></script>
+        <script type="text/javascript" src="js/declarativeToggle.js"></script>
+    </head>
+
+    <body>
+        <header class="section">
+
+            <!-- container -->
+            <div class="container1">
+                <h1>Duy Nguyen's Portfolio</h1>
+                <p class="hide-small">Thank you for following my journey!</p>
+
+                <span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+
+                <nav class="site-nav">
+                    <ul class="group">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Links</a></li>
+                        <li><a href="#">Contact Us</a><li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- container -->
+    
+        </header>
+
+        <div class="content-area group section">
+
+            <!-- container -->
+            <div class="container2">
+                <!-- row -->
+                <div class="row">
+                    <!-- col -->
+                    <div class="col col-md-8 main-area">
+                        <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+                            
+                            <span class="cycle-prev">&laquo;</span>
+                            <span class="cycle-next">&raquo;</span>
+
+                            <span class="cycle-pager"></span>
+                            
+                            <div class="slide">
+                                <img src="images/Half Moon Bay.jpg">
+                                <div  class="slide-text">
+
+                                    <h3>Half Moon Bay</h3>
+                                    <p>It has exceptional rock formations and cliffs, interesting walking paths and has works from the Bayside Artists Trail - see separate review.</p>
+
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="images/Pigsty Ponds.jpg">
+                                <div  class="slide-text">
+                                    <h3>Pigsty Ponds</h3>
+                                    <p>We were walking in to the Southern Ranges in Tasmania and aiming for Pigsty Ponds</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="images/Horshoe Fall.jpg">
+                                <div class="slide-text">
+                                    <h3>Horshoe Falls</h3>
+                                    <p>Horseshoe Falls is situated in the Mt. Field National Park, and is a short 10 minute walk from the impressive Russell Falls</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- thumbnail -->
+
+                        <div class="thumbnail">
+                            <a data-lightbox="gallery" href="images/Horshoe Fall.jpg" data-title="Horseshoe Fall"><img src="images/Horshoe Fall thumbnail.jpg"></a>
+                            <a data-lightbox="gallery" href="images/Half Moon Bay.jpg" data-title="Half Moon Bay"><img src="images/Half Moon Bay thumbnail.jpg"></a>
+                            <a data-lightbox="gallery" href="images/Pigsty Ponds.jpg" data-title="Pigsty Ponds"><img src="images/Pigsty Ponds thumbnail.jpg"></a>
+                        </div>
+
+                        <h2>Important Text</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <span data-toggle-target=".full-text" data-toggle-text="Hide the Full Text" class="toggle-btn read-more">Read the Full Text...</span>
+                        </p>
+
+                        <!-- full-text -->
+                        <div class="full-text toggle-btn">
+                            <h2>Full Text</h2>
+                    
+                            <p>
+                                This is the full text, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                            </p>
+                    
+                            <p>
+                                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+
+                        </div>
+                        
+                        <!-- full-text -->
+                    </div>
+                    <!-- col -->
+
+                    <!-- col -->
+
+                    <div class="col col-md-4 sidebar">
+                        <h3>Sidebar Heading</h3>
+                        <p>
+                            Sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p>
+                            Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                        </p>
+                    </div>
+                    <!-- col -->
+
+                </div>
+                <!-- row -->
+
+            </div>
+            <!-- container -->
+
+        </div> 
+           
+    </body>
+
+    <footer>
+        <p>
+            &#169; 2021 - All photos are Duy's work
+        </p>
+    </footer>
+</html>
